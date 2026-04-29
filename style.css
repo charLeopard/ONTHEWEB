@@ -5,6 +5,12 @@
 #IndexPage {
 	background-color: #F26A8D
 }
+#AppPage {
+	background-color: #E39695;
+
+
+}
+}
 
 body {
 	margin: 0;
@@ -15,7 +21,7 @@ h2, p {
 	margin: 10px;
 }
 
-ul{
+/*ul{
 	list-style-type: none;
 	margin:0;
 	padding:0;
@@ -31,30 +37,50 @@ ul li a {
 	display: block;
 	color: white;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 14px 10px;
 }
 
 
 ul li a:hover {
   background-color: #111111;
+}*/
+
+ul{
+		list-style-type: none;
 }
-</style>
-</head>
-<body>
+.nav {
 
-<ul>
-  <li><a href="#IndexPage">Home</a></li>
-  <li><a href="#FamilyPage">My Family</a></li>
-  <li><a href="#Apps">Top Apps</a></li>
-  <li><a href="#Volleyball">Volleyball</a></li>
+	margin:0;
+	padding:0;
+	overflow: hidden;
+	background-color: #333333;
+}
 
-</ul>
+.nav a {
+	float: left;
+}
 
-<h2>Horizontal Navbar Using Float</h2>
+.nav a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 10px;
+}
 
-<p>Some text on the website.</p>
 
-</body>
-</html>
+.nav a:hover {
+  background-color: #111111;
+}
 
+.container {
+display: grid;
+grid-template-columns: 2fr 1fr;
+justify-items: center;
+align-items: center;
+padding: 3px;
+}
 
+.container div {
+	padding:10px;
+	margin: 5px;
+}
