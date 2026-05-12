@@ -54,7 +54,7 @@ ul{
 	margin:0;
 	padding:0;
 	overflow: hidden;
-	background-color: #333333;
+	background-color: #5c85ed;
 }
 
 .nav a {
@@ -65,12 +65,12 @@ ul{
 	display: block;
 	color: white;
 	text-align: center;
-	padding: 14px 10px;
+	padding: 14px 5px;
 }
 
 
 .nav a:hover {
-  background-color: #111111;
+  background-color: #bda3ff;
 }
 
 .container {
@@ -84,4 +84,11 @@ padding: 3px;
 .container div {
 	padding:10px;
 	margin: 5px;
+}
+
+h1, h2, h3, p, li {
+  font-family: "Elms Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
